@@ -1,3 +1,4 @@
+This fork is only intended to allow running 2 Z-Wave addons simultaneously, on the same instance. Otherwise will track upstream as closely as possible.
 # Home Assistant Community Add-on: Z-Wave JS UI
 
 [![GitHub Release][releases-shield]][releases]

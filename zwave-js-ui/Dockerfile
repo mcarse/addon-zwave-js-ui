@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base-nodejs:0.1.4
+ARG BUILD_FROM=ghcr.io/hassio-addons/base-nodejs:0.2.0
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -11,7 +11,7 @@ ENV \
     S6_SERVICES_GRACETIME=30000
 
 # Setup base
-ARG ZWAVE_JS_UI_VERSION="v9.9.1"
+ARG ZWAVE_JS_UI_VERSION="v9.10.2"
 # hadolint ignore=DL3003,SC2046
 RUN \
     apk add --no-cache --virtual .build-dependencies \
